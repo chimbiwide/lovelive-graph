@@ -1,0 +1,14 @@
+[project]
+name = "ll-graph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "networkx>=3.6.1",
+    "python-louvain>=0.16",
+    "requests>=2.33.1",
+    "sentence-transformers>=5.4.1",
+    "transformers>=5.5.4",
+]
