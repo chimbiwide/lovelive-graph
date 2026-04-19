@@ -7,7 +7,7 @@ characters = load_embeddings()
 graph.build_graph(characters)
 
 while(True):
-    name = input("Enter character name (Muse&Aquors): ")
+    name = input("Enter character name: ")
     if name not in graph.nodes:
         print("Invalid Name")
         continue
